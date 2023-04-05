@@ -15,7 +15,6 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 
-<script src="introuduction.js" defer></script>
 <script src="time.js" defer></script>
 <script src="date.js" defer></script>
   </head>
@@ -99,6 +98,15 @@ alt="rainbow kitty"  class="TT" >
 <br>
 <img id="LK" src="https://static01.nyt.com/images/2019/07/21/arts/23lionking1/21lionking-notebook2-videoSixteenByNineJumbo1600.jpg" alt="Simba" style="display: none;">
 <button id="meeting" class="font-effect-fire-animation">Where are my manners?! &#129318;</button>
+    <script>
+  const button = document.querySelector("#meeting");
+function greet() {
+    const name = prompt("What's your name?");
+    alert(`Hello ${name}. I'm Aco, nice to meet you.`);
+}
+button.addEventListener("click", greet);
+</script>
+    
 <canvas id="platno" width="500px" height="300px">Your browser does not support the HTML canvas tag.</canvas>
 <br>
 <button class="butt" onclick="myCanvas()">What does this do?</button>
