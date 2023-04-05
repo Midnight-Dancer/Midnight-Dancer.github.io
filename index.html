@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+  <head>
+
+<link href="styles/style.css" rel="stylesheet" />
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Kitty page</title>
+
+<link href="https://fonts.googleapis.com/css?family=Sofia|Tilt+Prism|Rubik+Iso|Merriweather" rel="stylesheet" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&effect=fire-animation">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+<script src="Script/introuduction.js" defer></script>
+<script src="Script/time.js" defer></script>
+<script src="Script/date.js" defer></script>
+  </head>
+
+  <body>
+
+ <h1 title="cute"> 
+  <span style="float: left;" class="material-symbols-outlined">pets</span>Kitty<span style="float: right;" right class="material-symbols-outlined">pets</span></h1>
+
+<hr style="box-shadow: 0px 0px 4px 2px blue;">
+
+<p><a href="#coolpics">Jump to cool pics</a></p>
+
+<h2>Jump</h2>
+<p class="fl">Cats are most <i><b>dangerous</b></i> when they leap</p>
+
+<hr>
+
+<h2>Mouse</h2>
+<p class="fl">The next victim is the mouse</p>
+
+<hr>
+
+<h2>Happiness</h2>
+<p class="fl">Like people, cats too are <strong>happy</strong> after well deserved meal</p>
+
+<hr>
+
+<figure>
+
+  <a class="show" target="_blank" title="Search for a kitty movie" href="https://www.imdb.com/title/tt3915174/?ref_=nv_sr_srsg_2"> 
+    <img src="https://cdn.theatlantic.com/thumbor/W544GIT4l3z8SG-FMUoaKpFLaxE=/0x131:2555x1568/1600x900/media/img/mt/2017/06/shutterstock_319985324/original.jpg" 
+    alt="My test image">
+  </a>
+      <figcaption> 
+        &#128525;&#128525;&#128525;&#128525;&#128525;
+
+      </figcaption>
+
+</figure>
+
+<hr>
+  
+<p class="fl">Today we learned about&colon;</p>
+
+<ol class="font-effect-fire-animation">
+  <li>cats</li>
+  <li>cats</li>
+  <li>cats</li>
+</ol>
+
+<p >working together <br> to get those mice</p>
+
+<p class="fl">The end <a href="https://www.pexels.com/search/cat/">Cats</a>
+</p>
+
+<hr>
+
+<footer id="coolpics" onclick="myFunction()">
+  <p class="click">Images here</p>
+<div id="hidimg">
+<img title="super kitty" src="https://i0.wp.com/www.printmag.com/wp-content/uploads/2021/02/4cbe8d_f1ed2800a49649848102c68fc5a66e53mv2.gif?resize=476%2C280&ssl=1" 
+alt="rainbow kitty"  class="TT" >
+<img  title="Creator" src="Images/WIN_20230303_16_05_11_Pro.jpg" alt="Web creator" >
+</div>
+</footer>
+<script>function myFunction() {
+  document.getElementById("hidimg").style.display="block";
+}
+</script>
+
+<br>
+<div class="flipper">
+  <div class="flipper_content">
+
+  <div class="front_flip"><p class="parf">Flip me</p></div>
+   <div class="back_flip"><img class="tig" src="https://cdn.wallpapersafari.com/11/5/KDchEb.jpg" alt="cute tiger"></div>
+
+  </div>
+</div>
+<br>
+<img id="LK" src="https://static01.nyt.com/images/2019/07/21/arts/23lionking1/21lionking-notebook2-videoSixteenByNineJumbo1600.jpg" alt="Simba" style="display: none;">
+<button id="meeting" class="font-effect-fire-animation">Where are my manners?! &#129318;</button>
+<canvas id="platno" width="500px" height="300px">Your browser does not support the HTML canvas tag.</canvas>
+<br>
+<button class="butt" onclick="myCanvas()">What does this do?</button>
+
+<script> 
+function myCanvas() {
+  var c = document.getElementById("platno");
+  var ctx = c.getContext("2d");
+  var img = document.getElementById("LK");
+  ctx.drawImage(img,25,25,450,250);
+}
+</script>
+
+<hr style="box-shadow: 0px 0px 4px 2px blue;">
+
+<p1>
+  <span style="float: left;" class="material-symbols-outlined">pets</span><div1 id="date"></div1>
+  <span style="float: right;" right class="material-symbols-outlined">pets</span></p1>
+<br>
+<br>
+<p1 id="time"></p1>
+
+  </body>
+
+</html>
